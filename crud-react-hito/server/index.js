@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(cors());
 app.use(express.json());
 
-const sequelize = new Sequelize('alumnos_crud', 'root', 'curso', {
+const sequelize = new Sequelize('alumnos_crud', 'root', 'curso1234', {
 	host: 'localhost',
 	dialect: 'mysql',
 });
