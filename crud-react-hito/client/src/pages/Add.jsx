@@ -4,7 +4,7 @@ import { useState } from 'react';
 function Add() {
 	const [nombre, setNombre] = useState('');
 	const [apellidos, setApellidos] = useState('');
-	const [edad, setEdad] = useState();
+	const [edad, setEdad] = useState(0);
 	const [curso, setCurso] = useState('');
 
 	const update = () => {
